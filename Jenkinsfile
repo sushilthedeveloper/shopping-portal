@@ -25,7 +25,7 @@ pipeline{
         stage('package-the-app'){
             steps{
                 echo 'this is the Package job'
-                sh 'npm run pacakage'
+                sh 'npm run package'
                 sleep 7
             }
         }
